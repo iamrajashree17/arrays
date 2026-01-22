@@ -23,7 +23,7 @@ function productExceptSelf(nums) {
     }
 
     let right = 1;
-    for(let i = n-1; i>=0; i--) {
+    for (let i = n-1; i>=0; i--) {
         res[i] = res[i] * right;
         right = right * nums[i];
     }
